@@ -1,0 +1,20 @@
+.contenido {
+  justify-content: space-evenly;
+}
+.caja {
+  max-inline-size: 450px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.caja img {
+  inline-size: 100%;
+}
+.caja__contenido {
+  padding: 20px;
+  background-color: $color-claro;
+}
+.caja__contenido span {
+  color: $color-secundario;
+}

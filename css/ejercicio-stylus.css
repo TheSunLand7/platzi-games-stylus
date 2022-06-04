@@ -1,0 +1,121 @@
+h3 {
+  font-size: 20px;
+  margin: 0;
+}
+h2 {
+  font-size: 25px;
+  margin: 0;
+}
+h1 {
+  font-size: 30px;
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  color: #333;
+  font-family: "Lato", sans-serif;
+}
+.buscador {
+  padding: 100px;
+  inline-size: 100%;
+  block-size: 250px;
+  text-align: center;
+  background: url("../imgs/cover.jpg") center/cover no-repeat;
+}
+.buscador__input {
+  border: none;
+  padding: 20px;
+  inline-size: 75%;
+  block-size: 60px;
+  font-size: 25px;
+  border-radius: 30px;
+  outline: none;
+}
+.encabezado--con-filtros {
+  margin: 40px auto;
+  padding: 30px 0;
+  inline-size: 90%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.encabezado--con-filtros h2 {
+  margin-top: 10px;
+  font-size: 50px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.encabezado--con-filtros .filtros {
+  padding: 20px;
+  inline-size: 250px;
+  block-size: 75px;
+  margin-left: auto;
+  background-color: color-claro;
+  box-shadow: 0px 20px 33px 0px rgba(0,0,0,0.2);
+}
+.encabezado--con-filtros .filtros span {
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.encabezado--con-filtros .filtros a {
+  margin-left: 20px;
+  font-size: 25px;
+  color: #333;
+}
+.contenido {
+  justify-content: space-evenly;
+  margin: 40px auto;
+  padding: 30px 0;
+  inline-size: 90%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.caja {
+  max-inline-size: 450px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: color-claro;
+  box-shadow: 0px 20px 33px 0px rgba(0,0,0,0.2);
+}
+.caja img {
+  inline-size: 100%;
+}
+.caja__contenido {
+  padding: 20px;
+  background-color: #fff;
+}
+.caja__contenido span {
+  color: #8841da;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.caja__contenido h3 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.estadistica--articulos {
+  padding: 20px;
+  block-size: 70px;
+  border-top: 1px solid rgba(51,51,51,0.3);
+}
+.estadistica--articulos ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+.estadistica--articulos ul li {
+  list-style-type: none;
+  color: rgba(51,51,51,0.3);
+}
+.estadistica--articulos ul span {
+  margin-left: 10px;
+}
